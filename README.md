@@ -5,6 +5,8 @@ For any unbound keys is pressed, a text will apear in the console informing the 
 
  `console.log("Not hitting the piano keystrokes")`
  
+ The virtual piano also works with using the mouse. When clicking the keystroke with your left button, it will produce sound, the same as the keyboard.
+ 
 The virtual piano consist of:
 - 7 white keys
 - 5 black keys
