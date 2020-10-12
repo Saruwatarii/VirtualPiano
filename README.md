@@ -9,4 +9,5 @@ The virtual piano consist of:
 - 7 white keys
 - 5 black keys
 
+Below is a representation of the virtual piano.
 ![Virtual Piano](https://github.com/Saruwatarii/VirtualPiano/blob/main/img/VirutalPiano.png)
