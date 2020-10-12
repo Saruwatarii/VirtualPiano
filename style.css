@@ -6,21 +6,49 @@ html, body {
     margin: auto;
 
 }
-
-div.piano-container kbd {
+div.white-keys kbd {
     background-color: white;
     /*  height: 250px;
       width: 70px;*/
     padding: 150px 30px 45px 30px;
     border: 3px solid grey;
-    font-weight: 100; /* 600 */
+    font-weight: 100;  /* 600 */
+    font-size: 1.5em;
+    /* line-height: 350px;
+     text-align: center; */
+}
+div.white-keys {
+    display: flex;
+    margin: auto;
+
+}
+div.black-keys {
+    right: 47%;
+    top: -43px;
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+
+div.black-keys kbd {
+    background-color: black;
+    color: white;
+    /*  height: 250px;
+      width: 70px;*/
+    padding: 85px 20px 25px 20px;
+  /*  border: 3px solid grey; */
+    border-left: 25px solid white;
+    font-weight: 100;  /* 600 */
     font-size: 1.5em;
     /* line-height: 350px;
      text-align: center; */
 }
 
-div.piano-container {
+kbd.left-keys {
+    right: 80px;
+    position: relative;
+}
+.container{
     display: flex;
     margin: auto;
-
 }
